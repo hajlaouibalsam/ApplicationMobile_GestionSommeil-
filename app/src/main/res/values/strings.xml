@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GestionDuSommeil</string>
+    <string name="hours_slept">Heures de sommeil</string>
+    <string name="sleep_quality">Qualité du sommeil</string>
+    <string name="sleep_date">Date du sommeil</string>
+    <!-- Ajoutez d'autres attributs ici -->
+
+    <!-- Titres des écrans -->
+    <string name="title_home">BIENVENUE !</string>
+    <string name="title_data_input">Saisie des données</string>
+    <string name="title_result">Résultat</string>
+
+
+</resources>

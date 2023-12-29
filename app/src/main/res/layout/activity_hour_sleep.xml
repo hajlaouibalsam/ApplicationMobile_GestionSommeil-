@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/app_background"
+    tools:context=".View.HourSleep">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="300dp"
+         android:orientation="horizontal">
+
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Heure de dormir : "
+             android:textColor="@color/white"
+             android:textSize="20dp" />
+
+         <TimePicker
+             android:id="@+id/timePickerWakeUpTime1"
+             android:layout_width="wrap_content"
+             android:layout_height="328dp"
+             android:scaleX="0.3"
+             android:scaleY="0.30" />
+     </LinearLayout>
+
+     <!-- Deuxième bloc horizontal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heure de réveil :"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TimePicker
+            android:id="@+id/timePickerWakeUpTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="329dp"
+            android:scaleX="0.3"
+            android:scaleY="0.30" />
+    </LinearLayout>
+
+    <!-- Bouton "Calculer" -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculer"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
